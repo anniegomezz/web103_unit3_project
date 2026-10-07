@@ -1,0 +1,27 @@
+.all-events {
+    width: 100%;
+    padding: 20px;
+}
+
+.all-events > h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.all-events main {
+    width: 100%;
+    display: grid !important;
+    grid-template-columns: repeat(3, 350px);
+    grid-auto-rows: 350px;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Keep each event card at its intended size */
+.all-events .event-information {
+    width: 350px;
+    height: 350px;
+    margin: 0;
+}
